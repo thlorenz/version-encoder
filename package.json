@@ -1,6 +1,6 @@
 {
   "name": "version-encoder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Encode a x.y.z type version number up to v255.255.255.",
   "main": "version-encoder.js",
   "scripts": {
