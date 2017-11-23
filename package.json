@@ -1,0 +1,34 @@
+{
+  "name": "version-encoder",
+  "version": "0.0.0",
+  "description": "Encode a x.y.z type version number up to v255.255.255.",
+  "main": "version-encoder.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/version-encoder.git"
+  },
+  "homepage": "https://github.com/thlorenz/version-encoder",
+  "dependencies": {
+    "6bit-encoder": "~0.2.0",
+    "kodieren": "~0.2.0"
+  },
+  "devDependencies": {
+    "tape": "~4.8.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/version-encoder/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=6"
+  }
+}
